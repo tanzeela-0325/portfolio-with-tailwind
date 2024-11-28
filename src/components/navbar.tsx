@@ -1,6 +1,5 @@
 "use client"
 import Link from "next/link";
-// import { GiHamburgerMenu } from "react-icons/gi";
 import { RxCross2 } from "react-icons/rx";
 import { HiMenu } from "react-icons/hi";
 import { useState } from "react";
@@ -26,7 +25,7 @@ export default function NavBar(){
    
                  <button className="  pl-[30px] pt-[5px] pb-[5px] pr-[30px] mt-[15px] mb-[15px] rounded-full border-[1px] border-solid border-pink-600 
                   transition-0.2s ease-in-out cursor-pointer hover:animate-pulse animate__delay-2s hidden md:block shadow-lg hover:shadow-pink-800 ">Contact Me</button>
-                 {/* <i className="text-[15px]  mt-[25px]"><GiHamburgerMenu /></i> */}
+                
 
                  {/* Navbar for Small device */}
                      <div className="md:hidden flex items-center mr-3">
