@@ -24,7 +24,7 @@ export default function HeroSection(){
                   <li className="text-[20px] border-[2px] border-solid hover:animate-pulse animate__delay-2s  shadow-lg hover:shadow-pink-800 border-pink-600 rounded-full p-[10px] text-white"><Link href={"https://www.instagram.com"}></Link> <FaInstagramSquare /></li>
                   </ul>
 
-                 <button className="sm:mt-[30px] sm:ml-[50px]  mt-[30px] ml-[15px] pt-[5px] hover:animate-pulse animate__delay-2s pr-[25px] pb-[5px] pl-[25px] border-[1px] rounded-3xl border-solid border-pink-600 shadow-lg hover:shadow-pink-800">Download CV</button>
+                 <button className="sm:mt-[30px] sm:ml-[50px]  mt-[30px] ml-[15px] pt-[5px] hover:animate-pulse animate__delay-2s pr-[25px] pb-[5px] pl-[25px] border-[1px] rounded-3xl border-solid border-pink-600 shadow-lg hover:shadow-pink-800"><Link href={"//drive.google.com/file/d/19gkHxUxA7Wz_KG7Pxu-lRSEA_EW3XS6A/view?usp=sharing"}>Download CV</Link></button>
              </div>
 
               <Image src={main_img} alt="Image" width={1000} height={1000} className="sm:w-[300px] w-[250px] sm:h-[300px] h-[250px] animate-pulse rounded-full sm:mt-[30px] sm:ml-[6%] ml-[10%] mr-[30px] border-[2px] border-pink-600"/>
